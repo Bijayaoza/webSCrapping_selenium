@@ -1,0 +1,130 @@
+1. #### main i_frame
+ 
+<iframe name="webprocureframe" id="webprocureframe" frameborder="0" scrolling="no" style="height: 1805px; width: 100%; overflow: hidden;" src="https://webprocure.proactiscloud.com/wp-web-public/#/bidboard/search?&amp;customerid=51&amp;loginurl=https://portal.ct.gov/DAS/CTSource/Login&amp;oid=-1"></iframe>
+
+//*[@id="webprocureframe"]
+
+/html/body/div[1]/div[3]/article/section[1]/div/div/iframe
+
+
+2. recaptcha i_frame(only in i am not a robot button)
+<iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-dingevv6z7ad" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfYngckAAAAAFV6HI71YKEgRqGLs6zPfpfPzuaS&amp;co=aHR0cHM6Ly93ZWJwcm9jdXJlLnByb2FjdGlzY2xvdWQuY29tOjQ0Mw..&amp;hl=en&amp;v=GUGrl5YkSwpBsxsF3eY665Ye&amp;size=normal&amp;cb=3rjlk0kpp2zp"></iframe>
+
+/html/body/div[1]/app-root/app-bid-board/app-bid-board-details/div[3]/div/div/re-captcha/div/div/iframe
+
+//*[@id="ngrecaptcha-2"]/div/div/iframe
+
+
+ recapthca button
+<div class="recaptcha-checkbox-border" role="presentation"></div>
+
+/html/body/div[2]/div[3]/div[1]/div/div/span/div[1]
+
+
+
+3.
+<iframe title="recaptcha challenge expires in two minutes" name="c-dingevv6z7ad" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=GUGrl5YkSwpBsxsF3eY665Ye&amp;k=6LfYngckAAAAAFV6HI71YKEgRqGLs6zPfpfPzuaS" style="width: 400px; height: 580px;"></iframe>
+
+/html/body/div[14]/div[4]/iframe
+
+5.audio butoon
+	/html/body/div/div/div[3]/div[2]/div[1]/div[1]/div[2]/button
+	<button class="rc-button goog-inline-block rc-button-audio" title="Get an audio challenge" value="" id="recaptcha-audio-button" tabindex="1"></button>
+	
+6. play 
+/html/body/div[14]/div[4]/iframe 
+
+<button class="rc-button goog-inline-block rc-button-reload" title="Get a new challenge" value="" id="recaptcha-reload-button" tabindex="0"></button>
+
+/html/body/div[13]
+
+
+
+
+okay i got it there is one main iframe(1st) inside which recaptcha iframe (2nd)will come only in i am not a robot button....
+if while pressing i am not robot doesnot solve then again another iframe (3rd)will come in image section but i am not a robot button iframe(2nd) will vanish
+over there there was an button for audio which  we need to press
+but note that over the whole process 1st iframe was there 
+1. #### main i_frame
+ 
+<iframe name="webprocureframe" id="webprocureframe" frameborder="0" scrolling="no" style="height: 1805px; width: 100%; overflow: hidden;" src="https://webprocure.proactiscloud.com/wp-web-public/#/bidboard/search?&amp;customerid=51&amp;loginurl=https://portal.ct.gov/DAS/CTSource/Login&amp;oid=-1"></iframe>
+
+//*[@id="webprocureframe"]
+
+/html/body/div[1]/div[3]/article/section[1]/div/div/iframe
+
+
+2. recaptcha i_frame(only in i am not a robot button)
+<iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-dingevv6z7ad" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfYngckAAAAAFV6HI71YKEgRqGLs6zPfpfPzuaS&amp;co=aHR0cHM6Ly93ZWJwcm9jdXJlLnByb2FjdGlzY2xvdWQuY29tOjQ0Mw..&amp;hl=en&amp;v=GUGrl5YkSwpBsxsF3eY665Ye&amp;size=normal&amp;cb=3rjlk0kpp2zp"></iframe>
+
+/html/body/div[1]/app-root/app-bid-board/app-bid-board-details/div[3]/div/div/re-captcha/div/div/iframe
+
+//*[@id="ngrecaptcha-2"]/div/div/iframe
+
+
+ recapthca button
+<div class="recaptcha-checkbox-border" role="presentation"></div>
+
+/html/body/div[2]/div[3]/div[1]/div/div/span/div[1]
+
+
+
+3.
+<iframe title="recaptcha challenge expires in two minutes" name="c-dingevv6z7ad" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=GUGrl5YkSwpBsxsF3eY665Ye&amp;k=6LfYngckAAAAAFV6HI71YKEgRqGLs6zPfpfPzuaS" style="width: 400px; height: 580px;"></iframe>
+
+/html/body/div[14]/div[4]/iframe
+
+5.audio butoon
+	/html/body/div/div/div[3]/div[2]/div[1]/div[1]/div[2]/button
+	<button class="rc-button goog-inline-block rc-button-audio" title="Get an audio challenge" value="" id="recaptcha-audio-button" tabindex="1"></button>
+
+
+6. download button path
+<button _ngcontent-gst-c73="" class="btn btn-flat teal white-text modal-close"><i _ngcontent-gst-c73="" class="fa fa-download"></i> Download Attachment</button>	
+
+
+/html/body/div[1]/app-root/app-bid-board/app-bid-board-details/div[3]/div/div/button
+
+
+now modify mine code accordingly
+
+
+
+
+
+
+### click button
+
+//*[@id="recaptcha-anchor"]/div[1]
+
+
+/html/body/div[2]/div[3]/div[1]/div/div/span/div[1]
+
+
+
+
+document.querySelector("head")
+
+
+
+
+<iframe title="recaptcha challenge expires in two minutes" name="c-19vc76247tld" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=GUGrl5YkSwpBsxsF3eY665Ye&amp;k=6LfYngckAAAAAFV6HI71YKEgRqGLs6zPfpfPzuaS" style="width: 400px; height: 580px;"></iframe>
+
+
+/html/body/div[14]/div[4]/iframe
+
+
+
+/html/body/div[14]/div[4]/iframe
+
+
+
+
+
+
+
+
+### audio button
+
+//*[@id="recaptcha-audio-button"]
+/html/body/div/div/div[3]/div[2]/div[1]/div[1]/div[2]/button
